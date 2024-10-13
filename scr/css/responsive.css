@@ -1,0 +1,40 @@
+@media(max-width: 750px){
+    .mtgcolors {
+      flex-direction: column; 
+      align-items: center;
+      padding: 30px 0; 
+    }
+
+    .card{
+        max-width: 300px;
+    }
+
+    .card .informormation-card{
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    .card .informormation-card h3{
+        font-size: 16px;
+    }
+
+    .listing{
+        max-width: 360px;
+    }
+
+    .listing .cards{
+        width: 45%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8;
+    }
+
+    .listing ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+}
